@@ -126,5 +126,42 @@
             "ITEM.weaponCategory = \"CATEGORY\""
         ],
         "description": "Create a new weapon item with default values for a Helix gamemode"
+    },
+
+    "Helix Class": {
+        "prefix": "helix.class",
+        "body": [
+            "CLASS.name = \"NAME\"",
+            "CLASS.faction = FACTION_NAME",
+            "CLASS.isDefault = true",
+            "\nfunction CLASS:CanSwitchTo(client)\nend",
+            "\nif (SERVER) then",
+            "\tfunction CLASS:OnLeave(client)\n\tend",
+            "\n\tfunction CLASS:OnSet(client)\n\tend",
+            "\n\tfunction CLASS:OnSpawn(client)\n\tend",
+            "end",
+            "\nCLASS_NAME = CLASS.index"
+        ],
+        "description": "Create a new class with default values for a Helix gamemode"
+    },
+
+    "Helix Faction": {
+        "prefix": "helix.faction",
+        "body": [
+            "FACTION.name = \"NAME\"",
+            "FACTION.description = \"DESCRIPTION\"",
+            "FACTION.color = Color(255, 255, 255, 255)",
+            "FACTION.faction = FACTION_NAME",
+            "FACTION.isDefault = true",
+            "FACTION.models = {\n\t\"MODEL\",\n}",
+            "\nfunction FACTION:GetDefaultName(client)\nend",
+            "\nif (SERVER) then",
+            "\tfunction FACTION:OnCharacterCreated(client, character)\n\tend",
+            "\n\tfunction FACTION:OnSpawn(client)\n\tend",
+            "\n\tfunction FACTION:OnTransferred(character)\n\tend",
+            "end",
+            "\nFACTION_NAME = FACTION.index"
+        ],
+        "description": "Create a new faction with default values for a Helix gamemode"
     }
 }
