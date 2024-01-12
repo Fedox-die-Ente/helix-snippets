@@ -52,7 +52,7 @@
           "end"
         ],
         "description": "Create a new item with default values for a Helix gamemode"
-      },
+    },
 
     "Helix Outfit Item": {
         "prefix": "helix.item.outfit",

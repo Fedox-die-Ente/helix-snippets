@@ -26,11 +26,27 @@
     "snippets": [
       {
         "language": "glua",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/blanks.json"
       },
       {
         "language": "lua",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/blanks.json"
+      },
+      {
+        "language": "glua",
+        "path": "./snippets/classes.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/classes.json"
+      },
+      {
+        "language": "glua",
+        "path": "./snippets/hooks.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/hooks.json"
       }
     ],
     "commands": [
