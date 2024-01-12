@@ -143,3 +143,55 @@ ITEM.height = 1
 ITEM.class = "WEAPONCLASS"
 ITEM.weaponCategory = "CATEGORY"
 ```
+
+### helix.class
+
+```lua
+CLASS.name = "NAME"
+CLASS.faction = FACTION_NAME
+CLASS.isDefault = true
+
+function CLASS:CanSwitchTo(client)
+end
+
+if (SERVER) then
+    function CLASS:OnLeave(client)
+    end
+
+    function CLASS:OnSet(client)
+    end
+
+    function CLASS:OnSpawn(client)
+    end
+end
+
+CLASS_NAME = CLASS.index
+```
+
+### helix.faction
+
+```lua
+FACTION.name = "NAME"
+FACTION.description = "DESCRIPTION"
+FACTION.color = Color(255, 255, 255, 255)
+FACTION.isDefault = true
+FACTION.models = {
+	"MODEL",
+}
+
+function FACTION:GetDefaultName(client)
+end
+
+if (SERVER) then
+    function FACTION:OnCharacterCreated(client, character)
+    end
+
+    function FACTION:OnSpawn(client)
+    end
+
+    function FACTION:OnTransferred(character)
+    end
+end
+
+FACTION_NAME = FACTION.index
+```
