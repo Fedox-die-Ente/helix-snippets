@@ -3,11 +3,7 @@
 <h1 align="center">Helix Snippets Extension</h1>
 
 <p align="center">
-  <img src="https://github.com/Fedox-die-Ente/helix-snippets/blob/main/images/helix-logo.png?raw=true" alt="Helix Snippets Logo">
-</p>
-
-<p align="center">
-  <img src="https://github.com/Fedox-die-Ente/helix-snippets/blob/main/images/helix-preview.gif?raw=true" alt="Helix Snippets Preview">
+  <img src="/images/new-helix-logo.gif?raw=true" alt="Helix Snippets Logo">
 </p>
 
 ## Overview
