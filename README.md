@@ -1,3 +1,4 @@
+#FreeFedox on helix discord
 
 ![Helix Snippets Preview](images/helix-preview.gif)
 
