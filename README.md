@@ -18,7 +18,7 @@ The Helix Snippets extension provides a set of code snippets for the Helix progr
 ## Usage
 
 1. Install the Helix Snippets extension from the Visual Studio Code Marketplace.
-2. Open a Helix file.
+2. Open a LUA file.
 3. Type the snippet prefix and press `Tab` to insert the snippet.
 
 ## Snippet Examples
