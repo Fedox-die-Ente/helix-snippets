@@ -4,7 +4,7 @@
   "description": "Snippets for the helix gamemode in garrys mod.",
   "version": "1.0.7",
   "publisher": "Fedox",
-  "icon": "images/helix-logo.png",
+  "icon": "images/helix-logo-vscode.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/Fedox-die-Ente/helix-snippets.git"
