@@ -3,6 +3,10 @@
 ![Helix Snippets Preview](images/helix-preview.gif)
 
 <p align="center">
+  <img src="https://github.com/Fedox-die-Ente/helix-snippets/blob/main/images/helix-preview.gif?raw=true" alt="Helix Snippets Preview">
+</p>
+
+<p align="center">
   <img src="https://github.com/Fedox-die-Ente/helix-snippets/blob/main/images/helix-logo.png?raw=true" alt="Helix Snippets Logo">
 </p>
 
