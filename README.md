@@ -1,6 +1,6 @@
 #FreeFedox on helix discord
 
-![Helix Snippets Preview](images/helix-preview.gif)
+<h1 align="center">Helix Snippets Extension</h1>
 
 <p align="center">
   <img src="https://github.com/Fedox-die-Ente/helix-snippets/blob/main/images/helix-preview.gif?raw=true" alt="Helix Snippets Preview">
@@ -9,8 +9,6 @@
 <p align="center">
   <img src="https://github.com/Fedox-die-Ente/helix-snippets/blob/main/images/helix-logo.png?raw=true" alt="Helix Snippets Logo">
 </p>
-
-# Helix Snippets Extension
 
 ## Overview
 
