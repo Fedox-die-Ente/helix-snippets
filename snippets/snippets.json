@@ -11,7 +11,7 @@
         ],
         "description": "Create a new plugin"
     },
-  
+
     "Helix Item": {
         "prefix": "helix.item",
         "body": [
@@ -86,7 +86,7 @@
         "description": "Create a new PAC outfit item with default values for a Helix gamemode"
     },
 
-     "Helix Bag Item": {
+    "Helix Bag Item": {
         "prefix": "helix.item.bag",
         "body": [
             "ITEM.name = \"NAME\"",
@@ -115,7 +115,7 @@
     },
 
     "Helix Weapon Item": {
-        "prefix": "helix.item.ammo",
+        "prefix": "helix.item.weapon",
         "body": [
             "ITEM.name = \"NAME\"",
             "ITEM.description = \"DESCRIPTION\"",
