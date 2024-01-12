@@ -1,3 +1,6 @@
+
+![Helix Snippets Preview](images/helix-preview.gif)
+
 ![Helix Snippets Preview](images/helix-logo.png
 )
 # Helix Snippets Extension
@@ -11,10 +14,6 @@ The Helix Snippets extension provides a set of code snippets for the Helix progr
 - **Snippet Library:** A collection of useful snippets for Helix development.
 - **Easy Insertion:** Quickly insert code snippets with just a few keystrokes.
 - **Visual Studio Code Integration:** Seamlessly integrates with Visual Studio Code for a smooth coding experience.
-
-## Preview
-
-![Helix Snippets Preview](images/helix-preview.gif)
 
 ## Usage
 
