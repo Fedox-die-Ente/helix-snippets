@@ -1,8 +1,8 @@
 {
   "name": "helix-snippets",
   "displayName": "Helix Snippets",
-  "description": "Easy Helix Snippets to use..",
-  "version": "1.0.2",
+  "description": "Snippets for the helix gamemode in garrys mod.",
+  "version": "1.0.3",
   "publisher": "Fedox",
   "icon": "images/helix-logo.png",
   "repository": {
