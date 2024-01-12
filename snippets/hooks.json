@@ -1,0 +1,65 @@
+{
+    "CLASS:CanSwitchTo": {
+        "prefix": "CLASS:CanSwitchTo",
+        "body": [
+            "function CLASS:CanSwitchTo(client)\n\t$0\nend"
+        ],
+        "description": "Whether or not a player can switch to this class."
+    },
+
+    "CLASS:OnLeave": {
+        "prefix": "CLASS:OnLeave",
+        "body": [
+            "function CLASS:OnLeave(client)\n\t$0\nend"
+        ],
+        "description": "Called when a character has left this class and has joined a different one. You can get the class the character has just joined by calling character:GetClass()."
+    },
+
+    "CLASS:OnSet": {
+        "prefix": "CLASS:OnSet",
+        "body": [
+            "function CLASS:OnSet(client)\n\t$0\nend"
+        ],
+        "description": "Called when a character has joined this class."
+    },
+
+    "CLASS:OnSpawn": {
+        "prefix": "CLASS:OnSpawn",
+        "body": [
+            "function CLASS:OnSpawn(client)\n\t$0\nend"
+        ],
+        "description": "Called when a character in this class has spawned in the world."
+    },
+
+    "FACTION:GetDefaultName": {
+        "prefix": "FACTION:GetDefaultName",
+        "body": [
+            "function FACTION:GetDefaultName(client)\n\t$0\nend"
+        ],
+        "description": "Called when the default name for a character needs to be retrieved (i.e upon initial creation)."
+    },
+
+    "FACTION:OnCharacterCreated": {
+        "prefix": "FACTION:OnCharacterCreated",
+        "body": [
+            "function FACTION:OnCharacterCreated(client, character)\n\t$0\nend"
+        ],
+        "description": "Called when a character has been initially created and assigned to this faction."
+    },
+
+    "FACTION:OnSpawn": {
+        "prefix": "FACTION:OnSpawn",
+        "body": [
+            "function FACTION:OnSpawn(client)\n\t$0\nend"
+        ],
+        "description": "Called when a character in this faction has spawned in the world."
+    },
+
+    "FACTION:OnTransferred": {
+        "prefix": "FACTION:OnTransferred",
+        "body": [
+            "function FACTION:OnTransferred(character)\n\t$0\nend"
+        ],
+        "description": "Called when a player's character has been transferred to this faction."
+    }
+}
