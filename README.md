@@ -74,3 +74,66 @@ function ITEM:GetDescription()
 end
 ```
 
+### helix.item.outfit
+
+```lua
+ITEM.name = "NAME"
+ITEM.description = "DESCRIPTION"
+ITEM.model = "MODEL"
+ITEM.width = 1
+ITEM.height = 1
+ITEM.outfitCategory = "CATEGORY"
+ITEM.newSkin = 1
+ITEM.bodyGroups = {
+    ["BODYGROUPNAME"] = 1,
+}
+ITEM.replacements = "MODEL"
+```
+
+### helix.item.pacoutfit
+
+```lua
+ITEM.name = "NAME"
+ITEM.description = "DESCRIPTION"
+ITEM.model = "MODEL"
+ITEM.width = 1
+ITEM.height = 1
+ITEM.outfitCategory = "CATEGORY"
+ITEM.pacData = {}
+```
+
+### helix.item.bag
+
+```lua
+ITEM.name = "NAME"
+ITEM.description = "DESCRIPTION"
+ITEM.model = "MODEL"
+ITEM.width = 1
+ITEM.height = 1
+ITEM.invWidth = 1
+ITEM.invHeight = 1
+```
+
+### helix.item.ammo
+
+```lua
+ITEM.name = "NAME"
+ITEM.description = "DESCRIPTION"
+ITEM.model = "MODEL"
+ITEM.width = 1
+ITEM.height = 1
+ITEM.ammo = "AMMO"
+ITEM.ammoAmount = 1
+```
+
+### helix.item.weapon
+
+```lua
+ITEM.name = "NAME"
+ITEM.description = "DESCRIPTION"
+ITEM.model = "MODEL"
+ITEM.width = 1
+ITEM.height = 1
+ITEM.class = "WEAPONCLASS"
+ITEM.weaponCategory = "CATEGORY"
+```
