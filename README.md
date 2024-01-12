@@ -1,3 +1,4 @@
+#FreeFedox on helix discord
 
 ![Helix Snippets Preview](images/helix-preview.gif)
 
@@ -22,6 +23,11 @@ The Helix Snippets extension provides a set of code snippets for the Helix progr
 1. Install the Helix Snippets extension from the Visual Studio Code Marketplace.
 2. Open a LUA file.
 3. Type the snippet prefix and press `Tab` to insert the snippet.
+
+## Contributors
+
+1. Fedox (Started project)
+2. Winkarst (Added fcking lot stuff into it)
 
 ## Snippet Examples
 
