@@ -1,8 +1,10 @@
 
 ![Helix Snippets Preview](images/helix-preview.gif)
 
-![Helix Snippets Preview](images/helix-logo.png
-)
+<p align="center">
+  <img src="https://github.com/Fedox-die-Ente/helix-snippets/blob/main/images/helix-logo.png?raw=true" alt="Helix Snippets Logo">
+</p>
+
 # Helix Snippets Extension
 
 ## Overview
