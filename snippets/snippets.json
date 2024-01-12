@@ -1,0 +1,53 @@
+{
+    "Helix Plugin": {
+        "prefix": "helix.plugin",
+        "body": [
+            "local PLUGIN = PLUGIN",
+            "",
+            "PLUGIN.name = \"NAME\"",
+            "PLUGIN.description = \"DESCRIPTION\"",
+            "PLUGIN.author = \"AUTHOR\"",
+            "PLUGIN.schema = \"SCHEMA\""
+        ],
+        "description": "Create a new plugin"
+    },
+  
+    "Helix Item": {
+        "prefix": "helix.item",
+        "body": [
+          "ITEM.name = \"NAME\"",
+          "ITEM.description = \"DESCRIPTION\"",
+          "ITEM.model = \"MODEL\"",
+          "ITEM.width = 1",
+          "ITEM.height = 1",
+          "ITEM.price = 1",
+          "ITEM.category = \"CategoryName\"",
+          "ITEM.noBusiness = false",
+          "ITEM.factions = {\"faction1\", \"faction2\"}",
+          "ITEM.classes = {\"class1\", \"class2\"}",
+          "ITEM.flag = \"flags\"",
+          "ITEM.iconCam = {pos = Vector(0, 0, 0), ang = Angle(0, 0, 0), fov = 70}",
+          "ITEM.functions.Option = {",
+          "  name = \"OptionName\",",
+          "  OnClick = function(item)",
+          "    -- OnClick functionality here",
+          "  end,",
+          "  OnRun = function(item)",
+          "    -- OnRun functionality here",
+          "    return false",
+          "  end,",
+          "  OnCanRun = function(item)",
+          "    -- OnCanRun checks here",
+          "  end,",
+          "}",
+          "function ITEM:GetName()",
+          "  return self.name",
+          "end",
+          "function ITEM:GetDescription()",
+          "  return self.description",
+          "end"
+        ],
+        "description": "Create a new item with default values for a Helix gamemode"
+      }
+      
+}

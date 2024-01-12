@@ -1,0 +1,50 @@
+{
+  "name": "helix-snippets",
+  "displayName": "Helix Snippets",
+  "description": "Easy Helix Snippets to use..",
+  "version": "1.0.0",
+  "publisher": "Fedox",
+  "icon": "images/helix-logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fedox-die-Ente/helix-snippets.git"
+  },
+  "keywords": [
+    "Helix",
+    "GMOD Helix",
+    "Helix Snippets"
+  ],
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "main": "./out/src/extension",
+  "browser": "./out/src/extension",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "glua",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "lua",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -watch -p ./",
+    "test": "node ./node_modules/@vscode/test-electron/out/runTest.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.32",
+    "@types/node": "^6.0.40",
+    "@types/vscode": "^1.63.0",
+    "@vscode/test-electron": "^1.6.1",
+    "mocha": "^8.0.1",
+    "typescript": "^4.0.0"
+  }
+}
