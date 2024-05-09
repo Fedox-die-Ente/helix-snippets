@@ -2,8 +2,6 @@
     "Helix Plugin": {
         "prefix": "helix.plugin",
         "body": [
-            "local PLUGIN = PLUGIN",
-            "",
             "PLUGIN.name = \"NAME\"",
             "PLUGIN.description = \"DESCRIPTION\"",
             "PLUGIN.author = \"AUTHOR\"",

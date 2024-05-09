@@ -32,8 +32,6 @@ The Helix Snippets extension provides a set of code snippets for the Helix progr
 ### helix.plugin
 
 ```lua
-local PLUGIN = PLUGIN
-
 PLUGIN.name = "NAME"
 PLUGIN.description = "DESCRIPTION"
 PLUGIN.author = "AUTHOR"
