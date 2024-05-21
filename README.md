@@ -1,5 +1,3 @@
-#FreeFedox on helix discord
-
 <h1 align="center">Helix Snippets Extension</h1>
 
 <p align="center">
@@ -8,7 +6,7 @@
 
 ## Overview
 
-The Helix Snippets extension provides a set of code snippets for the Helix programming language. Easily insert common code patterns and improve your development efficiency with this Visual Studio Code extension.
+The Helix Snippets extension provides a set of code snippets for the Helix Garry's Mod gamemode. Easily insert common code patterns and improve your development efficiency with this Visual Studio Code extension.
 
 ## Features
 
@@ -18,14 +16,14 @@ The Helix Snippets extension provides a set of code snippets for the Helix progr
 
 ## Usage
 
-1. Install the Helix Snippets extension from the Visual Studio Code Marketplace.
-2. Open a LUA file.
+1. Install the [Helix Snippets extension](https://marketplace.visualstudio.com/items?itemName=Fedox.helix-snippets) from the Visual Studio Code Marketplace.
+2. Open a Lua file.
 3. Type the snippet prefix and press `Tab` to insert the snippet.
 
 ## Contributors
 
-1. Fedox (Started project)
-2. Winkarst (Added fcking lot stuff into it)
+1. Fedox - Founder
+2. Winkarst - Made a huge load of contributions
 
 ## Snippet Examples
 
@@ -38,6 +36,58 @@ PLUGIN.name = "NAME"
 PLUGIN.description = "DESCRIPTION"
 PLUGIN.author = "AUTHOR"
 PLUGIN.schema = "SCHEMA"
+```
+
+### helix.class
+
+```lua
+CLASS.name = "NAME"
+CLASS.faction = FACTION_NAME
+CLASS.isDefault = true
+
+function CLASS:CanSwitchTo(client)
+end
+
+if (SERVER) then
+    function CLASS:OnLeave(client)
+    end
+
+    function CLASS:OnSet(client)
+    end
+
+    function CLASS:OnSpawn(client)
+    end
+end
+
+CLASS_NAME = CLASS.index
+```
+
+### helix.faction
+
+```lua
+FACTION.name = "NAME"
+FACTION.description = "DESCRIPTION"
+FACTION.color = Color(255, 255, 255, 255)
+FACTION.isDefault = true
+FACTION.models = {
+	"MODEL",
+}
+
+function FACTION:GetDefaultName(client)
+end
+
+if (SERVER) then
+    function FACTION:OnCharacterCreated(client, character)
+    end
+
+    function FACTION:OnSpawn(client)
+    end
+
+    function FACTION:OnTransferred(character)
+    end
+end
+
+FACTION_NAME = FACTION.index
 ```
 
 ### helix.item
@@ -142,56 +192,4 @@ ITEM.width = 1
 ITEM.height = 1
 ITEM.class = "WEAPONCLASS"
 ITEM.weaponCategory = "CATEGORY"
-```
-
-### helix.class
-
-```lua
-CLASS.name = "NAME"
-CLASS.faction = FACTION_NAME
-CLASS.isDefault = true
-
-function CLASS:CanSwitchTo(client)
-end
-
-if (SERVER) then
-    function CLASS:OnLeave(client)
-    end
-
-    function CLASS:OnSet(client)
-    end
-
-    function CLASS:OnSpawn(client)
-    end
-end
-
-CLASS_NAME = CLASS.index
-```
-
-### helix.faction
-
-```lua
-FACTION.name = "NAME"
-FACTION.description = "DESCRIPTION"
-FACTION.color = Color(255, 255, 255, 255)
-FACTION.isDefault = true
-FACTION.models = {
-	"MODEL",
-}
-
-function FACTION:GetDefaultName(client)
-end
-
-if (SERVER) then
-    function FACTION:OnCharacterCreated(client, character)
-    end
-
-    function FACTION:OnSpawn(client)
-    end
-
-    function FACTION:OnTransferred(character)
-    end
-end
-
-FACTION_NAME = FACTION.index
 ```
